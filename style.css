@@ -57,21 +57,22 @@ body {
     margin-bottom: 80px;
 }
 
-#part1 h1 {
+.part1 h1 {
     text-align: center;
     font-size: 40px;
     font-weight: 900px;
 
 }
 
-#part1 p {
+.part1 p {
     text-align: center;
     font-size: 18px;
 }
 
-#part2 {
+.part2 {
     margin-top: 20px;
     display: flex;
+
     /* flex-direction: row; */
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 #amount-id2 {
-    border: 3px solid tomato;
+    border: 2px solid tomato;
     color: tomato;
     background-color: rgba(224, 66, 38, 0.212);
 
@@ -98,4 +99,55 @@ body {
 
 #donate-id {
     margin-top: 40px;
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+    background-color: rgba(54, 172, 172, 0.356);
+}
+
+.part3 {
+    display: flex;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.ddesign {
+    margin-right: 30px;
+}
+
+.design p {
+    text-align: left;
+}
+
+.design h1 {
+    font-size: 20px;
+}
+
+#background-1 {
+    background-color: rgba(54, 172, 172, 0.13);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+#background-2 {
+    background-color: rgba(255, 99, 71, 0.185);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+#background-3 {
+    background-color: rgba(255, 255, 0, 0.185);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
 }
