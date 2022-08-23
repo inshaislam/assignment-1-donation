@@ -222,3 +222,21 @@ body {
     border-radius: 5px;
     border-color: tomato;
 }
+
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    color: tomato;
+}
+
+footer p {
+    padding-bottom: 35px;
+    color: azure;
+    text-align: center;
+}
