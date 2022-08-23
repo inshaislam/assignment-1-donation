@@ -7,8 +7,8 @@ body {
 #container {
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
-    height: 600px;
-    margin-bottom: 20px;
+    height: 620px;
+    margin-bottom: 80px;
 
 }
 
@@ -37,17 +37,65 @@ body {
     margin-right: 25%;
 }
 
-#main3-head a {
+.main3-head a {
+
     color: azure;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
     margin-left: 570px;
-    padding-left: 3px;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-bottom: 3px;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.733), rgb(153, 26, 153));
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    background-color: tomato;
     border-radius: 5px;
 
+}
+
+.container2 {
+    margin-bottom: 80px;
+}
+
+#part1 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+
+}
+
+#part1 p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#part2 {
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+#amount-id {
+    margin-left: 300px;
+
+}
+
+#amount-id2 {
+    border: 3px solid tomato;
+    color: tomato;
+    background-color: rgba(224, 66, 38, 0.212);
+
+}
+
+.amount {
+    color: rgb(139, 139, 138);
+    margin-right: 17px;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 3px;
+}
+
+#donate-id {
+    margin-top: 40px;
 }
