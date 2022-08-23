@@ -55,6 +55,7 @@ body {
 
 .container2 {
     margin-bottom: 80px;
+    margin-top: 60px;
 }
 
 .part1 h1 {
@@ -190,4 +191,34 @@ body {
 
 .space {
     margin: 20px;
+}
+
+.after-footer {
+    padding: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    background-color: rgba(231, 231, 54, 0.226);
+}
+
+#form {
+    margin-left: 55px;
+}
+
+.size {
+    height: 40px;
+    width: 350px;
+    padding-right: 0;
+    background-color: rgba(148, 148, 148, 0.349);
+    border-radius: 5px;
+    border-color: rgba(148, 148, 148, 0.349);
+
+}
+
+.size1 {
+    height: 47px;
+    width: 180px;
+    background-color: tomato;
+    border-radius: 5px;
+    border-color: tomato;
 }
